@@ -29,10 +29,7 @@ namespace koen {
     }
 
 
-    // Je kan ook opengl commando's gebruiken hier 
     int CDemo::draw(){
-
-        // Vervand dit met je code met priemgetallen e.d. (gebruik data type 'double' of 'float' om met decimalen te werken)
 
         m_dt->color(1.0f, 0.0f, 0.0f);        
         m_dt->line(-5,0,0, 5,0,0); //x
